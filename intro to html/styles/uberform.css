@@ -1,0 +1,30 @@
+.textbox2{
+  width: 320px;
+  height: 35px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-weight: bolder;
+  background-color: rgb(233, 233, 233);
+  border: none;
+}
+.request-button{
+  padding: 13px 19px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  margin-right: 14px;
+  border:none;
+}
+.request-button:active{
+  opacity: 0.5;
+}
+.schedule-button{
+  padding: 13px 19px ;
+  background-color: rgb(233, 233, 233);
+  border: none;
+  margin-top: 20px;
+  margin-right: 14px;
+}
+.schedule-button:active{
+  opacity: 0.5;
+}

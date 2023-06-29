@@ -1,0 +1,22 @@
+.google-logo{
+  width: 200px;
+}
+.google-textbox{
+  width: 490px;
+  height: 30px;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 200px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  border-color: rgb(240, 240, 240);
+  border-width: 2px;
+  border-style: solid;
+}
+.google-textbox::placeholder{
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(125, 125, 125);
+}
+.google-textbox:focus{
+  outline: none;
+}
