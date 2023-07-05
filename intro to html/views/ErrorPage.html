@@ -1,96 +1,39 @@
-<style>
-  body{
-    background-color: rgb(7, 7, 38);
-    font-family: Helvetica, Arial, sans-serif;
-    padding: 0px;
-    margin: 0px;
-  }
-  h1{
-    display: inline-block;
-    color: whitesmoke;
-    font-size: 40pt;
-  }
-  p{
-    color: black;
-    width: 600px;
-  }
-  .card{
-    display: flex;
-    flex-direction: column;
-    background-color: whitesmoke;
-    padding: 30pt;
-    margin: 30pt;
-    align-items: center;
-    border-radius: 5px;
-    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
-    border-color: whitesmoke;
-    border-width: 2px;
-    border-style: solid;
-    width: fit-content;
-  }
-  span{
-    font-weight: 600;
-  }
-  .mascot{
-    width: 100px;
-  }
-  .header{
-    display: grid;
-    grid-template-columns: 90px 1fr;
-    background-color: whitesmoke;
-    padding: 16px 56px;
-    box-shadow: 0px 5px 20px;
-  }
-  .logo{
-    width: 100%;
-  }
-  .contact-button{
-    height: 100%;
-    background-color: rgb(210, 40, 43);
-    color: white;
-    border: none;
-    padding: 0px 15px;
-    border-radius: 20px;
-    font-weight: bold;
-  }
-  .contact-button:hover{
-    opacity: 0.9;
-  }
-  .contact-button:active{
-    opacity: 0.7;
-  }
-  .contact-button-div{
-    text-align: end;
-  }
-</style>
-
-<div class="header">
-  <div>
-    <a href="https://pldthome.com">
-      <img class="logo" src="/intro to html/assets/PLDT-logo-2016.png">
-    </a>
-  </div>
-  <div class="contact-button-div">
-    <button class="contact-button">Contact us</button>
-  </div>
-</div>
-
-<div>
-  <div>
-    <div style="background-color: green; width: 80%; margin-left: 10%; margin-right: 10%;">
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Error</title>
+    <link rel="stylesheet" href="/intro to html/styles/General.css">
+    <link rel="stylesheet" href="/intro to html/styles/Header.css">
+    <link rel="stylesheet" href="/intro to html/styles/Hero.css">
+    <link rel="stylesheet" href="/intro to html/styles/Card.css">
+  </head>
+  <body>
+    <div class="header">
+      <a href="https://pldthome.com">
+        <img class="logo" src="/intro to html/assets/PLDT-logo-2016.png">
+      </a>
+      <button class="contact-button">
+        <img src="/youtube/icons/notifications.svg" alt="">
+        Contact us
+      </button>
+    </div>
+    
+    <div class="hero">
       <img class="mascot" src="/intro to html/assets/welcome.png">
       <h1>Gentle Reminder from PLDT!</h1>
     </div>
-  </div>
-  <div class="card">
-
-    <p><span>Dear Valued Subscriber,</span></p>
-    <p>	You may have missed paying your bill which caused the restriction of your internet service.</p>
-    <p>To restore your internet connection, please pay your bill IMMEDIATELY.</p>
-    <p>You may pay online via PayExpress, PayMaya, Shopee or GCash. Payment can also be made in Bayad Center, SM and 7-11 stores nationwide, or in any of our accredited payment channels found at www.pldthome.com/paymentcenters</p>
-    <p>For your convenience, you may request for reconnection through:</p>
-    <p>&#183; PLDT Home Facebook Messenger</p>
-    <p>&#183; 171</p>
-    <p>Thank you.</p>
-  </div>
-</div>
+    
+    <div class="card-container">
+      <div class="card">
+        <p><span>Dear Valued Subscriber,</span></p>
+        <p>	You may have missed paying your bill which caused the restriction of your internet service.</p>
+        <p>To restore your internet connection, please pay your bill IMMEDIATELY.</p>
+        <p>You may pay online via PayExpress, PayMaya, Shopee or GCash. Payment can also be made in Bayad Center, SM and 7-11 stores nationwide, or in any of our accredited payment channels found at www.pldthome.com/paymentcenters</p>
+        <p>For your convenience, you may request for reconnection through:</p>
+        <p>&#183; PLDT Home Facebook Messenger</p>
+        <p>&#183; 171</p>
+        <p>Thank you.</p>
+      </div>
+    </div>
+  </body>
+</html>

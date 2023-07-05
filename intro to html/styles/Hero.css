@@ -1,0 +1,19 @@
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(131, 3, 3);
+  padding: 20px;
+}
+.mascot{
+  width: 100px;
+  margin-right: 20px;
+  margin-left: 30px;
+  transition: width .5s;
+}
+
+@media (max-width:450px) {
+  .mascot{
+    width: 70px;
+  }
+}

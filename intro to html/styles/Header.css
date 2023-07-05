@@ -1,0 +1,50 @@
+.header{
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 16px 56px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.logo{
+  height: 28px;
+  padding: 5px;
+}
+.contact-button{
+  display: flex;
+  height: 100%;
+  background-color: rgb(210, 40, 43);
+  color: white;
+  border: none;
+  padding: 4px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  align-items: center;
+  transition: ease all .5s;
+}
+.contact-button:hover{
+  opacity: 0.9;
+}
+.contact-button:active{
+  opacity: 0.7;
+}
+.contact-button img{
+  height: 20px;
+  filter: invert(100%) sepia(1%) saturate(2850%) hue-rotate(285deg) brightness(114%) contrast(100%);
+  margin-right: 4px;
+}
+
+@media(max-width: 395px){
+  .contact-button{
+    font-size: 0;
+    padding: 7px;
+  }
+  .contact-button img{
+    display: inline;
+    margin-right: 0;
+  }
+}
